@@ -62,7 +62,7 @@ header{
     margin: 20px 0;
 }
 .header img{
-    height: 680px; 
+    height: 670px; 
 }
 
 /*----------------- header section css style --------------*/
@@ -92,7 +92,10 @@ header{
 .order-item h3{
     margin: 15px 0;
 }
-
+.order-item i{
+    margin-right: 5px;
+}
+/*--------------- order section css style  -------------*/
 
 
 .flower-section{
