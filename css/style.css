@@ -77,6 +77,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    gap: 10px;
 }
 .flower-img{
     height: 400px;
@@ -167,5 +168,30 @@ header{
     width: 100%;
 }
 
+/*------------- instagram section css style --------------- */
 
+.deals{
+    background-image: url('../images/Rectangle9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+    margin: 100px 0;
+}
+.deals-description{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(39, 39, 39, 0.60);
+
+}
+.deals-content input {
+    padding: 10px 350px 10px 10px;
+    border: none;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
 
