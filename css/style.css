@@ -67,6 +67,34 @@ header{
 
 /*----------------- header section css style --------------*/
 
+
+.orders{
+    margin: 100px 0;
+}
+.orders-container{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.order-item{
+    background: rgba(167, 33, 98, 0.15);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.order-item-1{
+    background: rgba(5, 151, 160, 0.15);
+}
+.order-item p{
+    margin-top: 20px;
+}
+.order-item h3{
+    margin: 15px 0;
+}
+
+
+
 .flower-section{
     margin: 50px 0;
 }
