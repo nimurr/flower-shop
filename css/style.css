@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    transition: 0.5s;
 }
 
 .container {
@@ -18,7 +19,12 @@
     background: #E55473;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer; 
+}
+.btn:hover{
+    background: #fff;
+    color: #000;
+
 }
 .heading-title{
     text-align: center;
@@ -199,7 +205,10 @@ header{
 .instagram-item img {
     width: 100%;
 }
-
+.instagram-item img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
 /*------------- instagram section css style --------------- */
 
 .deals{
