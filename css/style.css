@@ -1,4 +1,8 @@
+/* import google fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+/*--------------- common css style --------------*/
 
 *{
     margin: 0;
@@ -39,10 +43,8 @@
     color:rgba(39, 39, 39, 0.60) ;
 }
 
-/*--------------- common css style --------------*/
 
-
-
+/*----------------- header section css style --------------*/
 header{
     background: rgba(229, 84, 115, 0.10);
     padding-top: 40px;
@@ -71,9 +73,8 @@ header{
     height: 95vh; 
 }
 
-/*----------------- header section css style --------------*/
 
-
+/*--------------- flowers section css style ---------------*/
 
 .flower-section{
     margin: 50px 0;
@@ -118,8 +119,7 @@ header{
     margin-top: 20px;
 }
 
-/*--------------- flowers section css style ---------------*/
-
+/*-------------------- support section css style ------------------*/
 .support{
     background: rgba(39, 39, 39, 0.05);
     display: flex;
@@ -133,9 +133,7 @@ header{
     margin-top: 10px;
 }
 
-/*-------------------- support section css style ------------------*/
-
-
+/*--------------- order section css style  -------------*/
 .orders{
     margin: 100px 0;
 }
@@ -165,8 +163,9 @@ header{
 .order-item i{
     margin-right: 5px;
 }
-/*--------------- order section css style  -------------*/
 
+
+/*------------- discount section css style  ----------*/
 .discount-banner{
     background: rgba(229, 84, 115, 0.10);
     height: 80vh;
@@ -195,8 +194,7 @@ header{
     line-height: 1.5;
 }
 
-/*------------- discount section css style  ----------*/
-
+/*------------- instagram section css style --------------- */
 .instagram{
     margin: 100px 0;
 }
@@ -214,9 +212,8 @@ header{
     opacity: 0.7;
     cursor: pointer;
 }
-/*------------- instagram section css style --------------- */
 
-
+/*--------------- deals section css style  ----------------*/
 .deals{
     background-image: url('../images/Rectangle9.png');
     background-repeat: no-repeat;
@@ -242,8 +239,8 @@ header{
     border-radius: 5px;
 }
 
-/*--------------- deals section css style  ----------------*/
 
+/*---------- footer section css style  ----------*/
 footer{
     background: #000;
     display: flex;
@@ -271,5 +268,3 @@ footer{
 .footer-copyright{
     color: rgba(255, 255, 255, 0.40);
 }
-
-/*---------- footer section css style  ----------*/
