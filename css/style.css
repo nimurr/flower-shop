@@ -102,6 +102,10 @@ header{
 }
 .flower-img-2{
     background: rgba(5, 151, 160, 0.15);
+    
+}
+.flower-img-2 img{
+    height: 350px;
 }
 .flower-img-3{
     background: rgba(71, 125, 17, 0.15);
