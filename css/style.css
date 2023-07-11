@@ -217,7 +217,7 @@ header{
 .deals{
     background-image: url('../images/Rectangle9.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 400px; 
     display: flex;
     align-items: center;
